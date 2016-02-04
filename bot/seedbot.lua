@@ -224,31 +224,14 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "admin"
+    "admin",
+    "plugins"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {94477327,94389886},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
+    about_text = [[🔥 ħʍď ąɲţɨ-şpąʍʍ€ŕ 🔥 V3.8
+Manager: @Farzadhmd1 & Developer: @GenerousMan_Bot
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -348,7 +331,7 @@ Promote someone
 !demote [username]
 Demote someone
 
-!kickme
+!sikkme
 Will kick user
 
 !about
@@ -368,10 +351,10 @@ return group id or user id
 
 !help
 
-!lock [member|name|bots|leave]	
+!lock [member|name|bots|leave|link|tag|join]	
 Locks [member|name|bots|leaveing] 
 
-!unlock [member|name|bots|leave]
+!unlock [member|name|bots|leave|link|tag|join]
 Unlocks [member|name|bots|leaving]
 
 !set rules <text>
@@ -429,6 +412,8 @@ will return group ban list
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only owner can use res,setowner,promote,demote and log commands
+
+`H M D   A N T I  S P A M M E R`
 
 ]]
   }
