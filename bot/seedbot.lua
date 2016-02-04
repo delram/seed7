@@ -310,13 +310,13 @@ This command will send text to [group_id]
     help_text = [[
 Commands list :
 
-!kick [username|id]
+!sik / k [username|id]
 You can also do it by reply
 
-!ban [ username|id]
+!ban / b [ username|id]
 You can also do it by reply
 
-!unban [id]
+!unban / unb [id]
 You can also do it by reply
 
 !who
